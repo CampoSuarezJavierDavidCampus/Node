@@ -683,7 +683,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="J3bnnXmFRBNfpDlhpJKj" name="Entities 1.1">
-        <mxGraphModel dx="1085" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2170" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1094,7 +1094,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="t997FpXBTYekKNYYNafJ" name="Entidades atributos">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="1573" dy="3815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1792,7 +1792,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="kP0RJT562DoLpL5V_9el-2" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.128;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#37D606;strokeWidth=2;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;rounded=1;" edge="1" parent="1" source="a3E4VcxGVR-EKCbkl99z-20" target="R1yU7oauaLiGWNQAJlIt-26">
+                <mxCell id="kP0RJT562DoLpL5V_9el-2" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.128;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;rounded=1;" edge="1" parent="1" source="a3E4VcxGVR-EKCbkl99z-20" target="R1yU7oauaLiGWNQAJlIt-26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <UserObject label="AREA&lt;br&gt;id&lt;br&gt;nombre&lt;br&gt;descripcion&lt;br&gt;id_taller" lucidchartObjectId="UcBfvdfG~xuZ" id="a3E4VcxGVR-EKCbkl99z-20">
