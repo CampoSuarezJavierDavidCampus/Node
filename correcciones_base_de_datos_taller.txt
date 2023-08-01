@@ -1,0 +1,90 @@
+correcciones base de datos taller
+
+
+* marca com
+ponente
+
+
+
+	    tipoProducto -repuesto					categoria - motor	- electrica (relacionado a producto)
+		         -accesorio						  - suspencion
+		|
+producto => producto   <- tipoVehiculo
+		|
+proveedor-> productoProveedor
+
+
+
+
+maquinaria => herramienta
+
+
+
+
+tipoEntidadPrestadoraServicio - EPS
+	       |	      - ARL
+			      - Prepagada
+	     infoEPS (id, nombre,contacto, tel, cel, email)
+		|
+	     personal 1------1 usuario
+
+
+
+
+contacto xx, contactoUsuario!!!!!!
+
+proveedor es un usuario
+
+usuario => persona
+
+persona  -> contactoPersona -> tipoContacto (email, telFijo. telEmpre, telMovil)
+   |
+tipoPersona
+
+usuario xx -> persona -> tipoPersona 
+
+contactoExterno?¿
+
+relacion circular, si se quiere desaparecer se debe de taner una tabla alterna a las empresas proveedoras -> proveedorContacto (la info de ese contacto ya esta en persona) persona 1---1 proveedorContacto o tmb se puede de una a muchas 
+
+
+
+
+componente => accesorio
+
+tipoElemento o tipoRepuesto o categoriaProducto
+
+
+
+
+
+repuesto => producto -> categoria
+
+
+
+
+
+(inventarioVehiculo o componentesVehiculo) lista de chequeo
+
+
+
+
+
+orden de servicio (numero de orden, quien genero la orden)     -> inspeccionVehiculo  (relacionada tmb con vehiculo y componentes del vehiculo)
+
+
+
+
+
+producto => inventario
+
+
+
+
+(contabilidad    KARDEX ---> FIFO -- priEntrar - priSalir)
+			---> UEPS -- ultEntrar - priSalir
+
+
+
+stock_total =====> stockMin
+		   stockMax
