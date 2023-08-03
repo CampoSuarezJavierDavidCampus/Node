@@ -1094,7 +1094,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="t997FpXBTYekKNYYNafJ" name="Entidades atributos">
-        <mxGraphModel dx="1880" dy="3843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="3361" dy="4960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2851,7 +2851,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="gvWprgLZFNo_xgLe_po6" name="Refactor 2.0">
-        <mxGraphModel dx="1101" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="4617" dy="3590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2972,7 +2972,7 @@
                         <mxPoint x="520" y="40" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-26" style="edgeStyle=none;html=1;exitX=0.993;exitY=0.925;exitDx=0;exitDy=0;strokeColor=#FFFFCC;strokeWidth=2;fontSize=40;startArrow=ERmany;startFill=0;endArrow=ERmandOne;endFill=0;exitPerimeter=0;entryX=0.001;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-29" edge="1" target="w_gTyAtMRRmi7Bf6zAq3-107">
+                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-26" style="edgeStyle=none;html=1;exitX=0.993;exitY=0.925;exitDx=0;exitDy=0;strokeColor=#FFFFCC;strokeWidth=2;fontSize=40;startArrow=ERmany;startFill=0;endArrow=ERmandOne;endFill=0;exitPerimeter=0;entryX=0.001;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-29" target="w_gTyAtMRRmi7Bf6zAq3-107" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="760" y="75" as="targetPoint"/>
                     </mxGeometry>
@@ -3187,7 +3187,7 @@
                         <mxGeometry x="495" y="130" width="165" height="190" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-56" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=0.278;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="w_gTyAtMRRmi7Bf6zAq3-23" edge="1" source="w_gTyAtMRRmi7Bf6zAq3-81">
+                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-56" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=0.278;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-81" target="w_gTyAtMRRmi7Bf6zAq3-23" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1800" y="170"/>
@@ -3236,7 +3236,7 @@
                         <mxPoint x="1630" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-65" style="edgeStyle=none;html=1;exitX=0.649;exitY=1.003;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.151;entryDx=0;entryDy=0;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-66" edge="1" target="w_gTyAtMRRmi7Bf6zAq3-81">
+                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-65" style="edgeStyle=none;html=1;exitX=0.649;exitY=1.003;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.151;entryDx=0;entryDy=0;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-66" target="w_gTyAtMRRmi7Bf6zAq3-81" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1600" y="260"/>
@@ -3363,7 +3363,7 @@
                 </UserObject>
                 <UserObject label="MOVIMIENTO_INVENTARIO&lt;br&gt;id&lt;br&gt;fecha&lt;br&gt;cantidad&lt;br&gt;id_producto&lt;br&gt;" lucidchartObjectId="GnBfpLfu1Ddu" id="w_gTyAtMRRmi7Bf6zAq3-80">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#FFFFFF;align=center;spacing=3.8;strokeColor=#FFF194;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-                        <mxGeometry x="2080" y="340" width="238.5" height="160" as="geometry"/>
+                        <mxGeometry x="2160" y="447.5" width="238.5" height="160" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <UserObject label="MOVIMIENTO_PRODUCTO&lt;br&gt;id&lt;br&gt;fecha_ingreso&lt;br&gt;fecha_despacho&lt;br&gt;conste_unitario&lt;br&gt;coste_transaccion&lt;br&gt;unidades_ingresadas&lt;br&gt;unidades_despachadas&lt;br&gt;motivo_movimiento_descripcion&lt;br&gt;&lt;span style=&quot;color: rgb(240, 240, 240);&quot;&gt;id_tipo_movimiento&lt;br&gt;&lt;/span&gt;id_estado_movimiento&lt;br&gt;id_taller&lt;br&gt;id_persona&lt;br&gt;id_info_proiducto" lucidchartObjectId="GnBfpLfu1Ddu" id="w_gTyAtMRRmi7Bf6zAq3-81">
@@ -3562,7 +3562,7 @@
                         <mxGeometry x="1030" y="-160" width="175" height="68.75" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-112" style="edgeStyle=none;html=1;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;entryX=0.774;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.002;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="w_gTyAtMRRmi7Bf6zAq3-81" edge="1" source="w_gTyAtMRRmi7Bf6zAq3-113">
+                <mxCell id="w_gTyAtMRRmi7Bf6zAq3-112" style="edgeStyle=none;html=1;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;entryX=0.774;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.002;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w_gTyAtMRRmi7Bf6zAq3-113" target="w_gTyAtMRRmi7Bf6zAq3-81" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2080" y="100" as="targetPoint"/>
                         <Array as="points">
