@@ -4385,7 +4385,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="CwcCe1cfN-9zEvOnyMER" name="Entities 3.0">
-        <mxGraphModel dx="1551" dy="-548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="1831" dy="-327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -4962,9 +4962,9 @@
                         <mxPoint x="180" y="2400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="INSPECCION&lt;br&gt;id&lt;br&gt;fecha_ingreso&lt;br&gt;fecha_salida&lt;br&gt;ultima_inspeccion&lt;br&gt;proxima_inspeccion&lt;br&gt;costo_inspeccion&lt;br&gt;diagnostico_tecnico&lt;br&gt;diagnostico_cliente&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_vehiculo&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_empleado&lt;br&gt;&lt;/span&gt;id_taller&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;" lucidchartObjectId="A8AfqtrKCbO3" id="YYlXQqJvsawoS0S-uPjs-75">
+                <UserObject label="INSPECCION&lt;br&gt;id&lt;br&gt;fecha_ingreso&lt;br&gt;fecha_salida&lt;br&gt;ultima_inspeccion&lt;br&gt;observaciones&lt;br&gt;proxima_inspeccion&lt;br&gt;costo_inspeccion&lt;br&gt;diagnostico_tecnico&lt;br&gt;diagnostico_cliente&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_vehiculo&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_empleado&lt;br&gt;&lt;/span&gt;id_taller&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;" lucidchartObjectId="A8AfqtrKCbO3" id="YYlXQqJvsawoS0S-uPjs-75">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
-                        <mxGeometry x="320" y="2390" width="170" height="250" as="geometry"/>
+                        <mxGeometry x="314.5" y="2390" width="170" height="270" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="YYlXQqJvsawoS0S-uPjs-76" style="edgeStyle=none;html=1;exitX=0.999;exitY=0.372;exitDx=0;exitDy=0;strokeColor=#001DBC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;entryX=0.346;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YYlXQqJvsawoS0S-uPjs-77" target="YYlXQqJvsawoS0S-uPjs-104">
@@ -5053,7 +5053,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="PROVEEDOR&lt;br&gt;id&lt;br&gt;id_persona&lt;br&gt;id_tipo_proveedor" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-89">
+                <UserObject label="PROVEEDOR&lt;br&gt;id_persona&lt;br&gt;id_tipo_proveedor" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-89">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="600.75" y="2000" width="219.62" height="90" as="geometry"/>
                     </mxCell>
@@ -5115,8 +5115,8 @@
                             <mxPoint x="1520" y="2164"/>
                             <mxPoint x="1520" y="2560"/>
                             <mxPoint x="520" y="2560"/>
-                            <mxPoint x="520" y="2650"/>
-                            <mxPoint x="200" y="2650"/>
+                            <mxPoint x="520" y="2680"/>
+                            <mxPoint x="200" y="2680"/>
                             <mxPoint x="200" y="2530"/>
                             <mxPoint x="80" y="2530"/>
                             <mxPoint x="77" y="2500"/>
@@ -5146,7 +5146,7 @@
                         <mxGeometry x="889.5" y="2265" width="145.5" height="210" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="SERVICIO_DIAGNOSTICO&lt;br&gt;observacion&lt;br&gt;id_servicio&lt;br&gt;id_diagnostigo" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-104">
+                <UserObject label="RESULTADO_SERVICIO&lt;br&gt;observacion&lt;br&gt;id_servicio&lt;br&gt;id_diagnostigo" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-104">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="600.75" y="2460" width="225.5" height="90" as="geometry"/>
                     </mxCell>
