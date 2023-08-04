@@ -4674,7 +4674,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="PERSONAL&lt;br&gt;id_personal&lt;br&gt;id_taller&lt;br&gt;id_persona&lt;br&gt;id_cargo" lucidchartObjectId="a6AfSKtTRCPW" id="YYlXQqJvsawoS0S-uPjs-39">
+                <UserObject label="EMPLEADO&lt;br&gt;id_personal&lt;br&gt;id_taller&lt;br&gt;id_persona&lt;br&gt;id_cargo" lucidchartObjectId="a6AfSKtTRCPW" id="YYlXQqJvsawoS0S-uPjs-39">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=34;strokeWidth=2;strokeColor=#FFF194;" vertex="1" parent="1">
                         <mxGeometry x="369.5" y="1650" width="170" height="165" as="geometry"/>
                     </mxCell>
@@ -5048,7 +5048,7 @@
                         <mxPoint x="520" y="1879" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="TIPO_PERSONA(&lt;br&gt;proveedor,cliente&lt;br&gt;,juridica)&lt;br&gt;id&lt;br&gt;descripcion" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-87">
+                <UserObject label="TIPO_PERSONA(&lt;br&gt;proveedor,cliente&lt;br&gt;personal,juridica)&lt;br&gt;id&lt;br&gt;descripcion" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-87">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="614.5" y="1846" width="150.75" height="130" as="geometry"/>
                     </mxCell>
