@@ -4385,7 +4385,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="CwcCe1cfN-9zEvOnyMER" name="Entities 3.0">
-        <mxGraphModel dx="1353" dy="-704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="1551" dy="-548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -4739,7 +4739,7 @@
                         <mxPoint x="870" y="1850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="VEHICULO&lt;br&gt;placa_vehiculo&lt;br&gt;modelo&lt;br&gt;kilometraje&lt;br&gt;color&lt;br&gt;id_usuario&lt;br&gt;id_marca&lt;br&gt;id_tipo" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-49">
+                <UserObject label="VEHICULO&lt;br&gt;placa_vehiculo&lt;br&gt;modelo&lt;br&gt;kilometraje&lt;br&gt;color&lt;br&gt;id_persona&lt;br&gt;id_marca&lt;br&gt;id_tipo" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-49">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="339.5" y="2090" width="165" height="190" as="geometry"/>
                     </mxCell>
@@ -4794,8 +4794,12 @@
                         <mxGeometry x="609.68" y="2330" width="189.25" height="80" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="YYlXQqJvsawoS0S-uPjs-56" style="edgeStyle=none;hachureGap=4;html=1;entryX=0.435;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFCC;strokeWidth=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YYlXQqJvsawoS0S-uPjs-57" target="YYlXQqJvsawoS0S-uPjs-59">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="YYlXQqJvsawoS0S-uPjs-56" style="edgeStyle=none;hachureGap=4;html=1;strokeColor=#FFFFCC;strokeWidth=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YYlXQqJvsawoS0S-uPjs-57" target="YYlXQqJvsawoS0S-uPjs-62">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1400" y="1850"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <UserObject label="TIPO_PRODUCTO&lt;br&gt;(repuesto,accesoriao)&lt;br&gt;id&lt;br&gt;descripcion" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-57">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
@@ -4811,7 +4815,7 @@
                         <mxPoint x="1436" y="2099" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="INFO_PRODUCTO&lt;br&gt;id&lt;br&gt;modelo&lt;br&gt;fotografia&lt;br&gt;descripcion&lt;br&gt;caracteristicas&lt;br&gt;id_marca_producto&lt;br&gt;id_categoria_producto&lt;br&gt;id_tipo_producto" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-59">
+                <UserObject label="INFO_PRODUCTO&lt;br&gt;id&lt;br&gt;modelo&lt;br&gt;fotografia&lt;br&gt;descripcion&lt;br&gt;caracteristicas&lt;br&gt;id_marca_producto&lt;br&gt;id_categoria_producto" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-59">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="1320" y="1868.75" width="184.5" height="230" as="geometry"/>
                     </mxCell>
@@ -4841,9 +4845,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="CATEGORIA_PRODUCTO&lt;br&gt;(baterias,espejos,llantas,frenos)&lt;br&gt;id&lt;br&gt;nombre&lt;br&gt;descripcion" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-62">
+                <UserObject label="CATEGORIA_PRODUCTO&lt;br&gt;(baterias,espejos,llantas,frenos)&lt;br&gt;id&lt;br&gt;nombre&lt;br&gt;descripcion&lt;br&gt;id_tipo_producto" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-62">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
-                        <mxGeometry x="1634.5" y="1800" width="250" height="116" as="geometry"/>
+                        <mxGeometry x="1634.5" y="1790" width="250" height="126" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="YYlXQqJvsawoS0S-uPjs-63" style="edgeStyle=none;hachureGap=4;html=1;strokeColor=#FF8000;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;fillColor=#fa6800;rounded=1;exitX=0.799;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YYlXQqJvsawoS0S-uPjs-65">
@@ -4898,7 +4902,7 @@
                 </mxCell>
                 <UserObject label="MARCA_PRODUCTO&lt;br&gt;id&lt;br&gt;nombre&lt;br&gt;descripcion" lucidchartObjectId="BvBf1V1v6eV7" id="YYlXQqJvsawoS0S-uPjs-67">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;shadow=0;" vertex="1" parent="1">
-                        <mxGeometry x="1544.5" y="1700" width="210" height="90" as="geometry"/>
+                        <mxGeometry x="1544.5" y="1690" width="210" height="90" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="YYlXQqJvsawoS0S-uPjs-68" style="edgeStyle=none;html=1;strokeColor=#001DBC;strokeWidth=3;fontColor=#37D606;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;endSize=3;rounded=1;exitX=1.003;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YYlXQqJvsawoS0S-uPjs-69">
@@ -5005,7 +5009,7 @@
                         <mxGeometry x="-135.5" y="1540" width="155" height="90" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="AREA_PERSONAL&lt;br&gt;id_area&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_empleado&lt;/span&gt;" lucidchartObjectId="UcBfvdfG~xuZ" id="YYlXQqJvsawoS0S-uPjs-83">
+                <UserObject label="AREA_EMPLEADO&lt;br&gt;id_area&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;id_empleado&lt;/span&gt;" lucidchartObjectId="UcBfvdfG~xuZ" id="YYlXQqJvsawoS0S-uPjs-83">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=13;strokeWidth=2;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
                         <mxGeometry x="149.5" y="1380" width="165" height="70" as="geometry"/>
                     </mxCell>
@@ -5069,7 +5073,7 @@
                         <mxGeometry x="900" y="1440" width="170" height="102.5" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="PERSONA_EPS&lt;br&gt;id_empleado&lt;br&gt;id_eps_contacto" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-92">
+                <UserObject label="PERSONA_EPS&lt;br&gt;id_persona&lt;br&gt;id_eps_contacto" lucidchartObjectId="c6Af_CVJARY~" id="YYlXQqJvsawoS0S-uPjs-92">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=default;shadow=0;" vertex="1" parent="1">
                         <mxGeometry x="1045" y="1790" width="175" height="68.75" as="geometry"/>
                     </mxCell>
