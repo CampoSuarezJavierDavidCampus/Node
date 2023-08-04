@@ -2851,7 +2851,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="gvWprgLZFNo_xgLe_po6" name="Refactor 2.0">
-        <mxGraphModel dx="1527" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
+        <mxGraphModel dx="1177" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#666666" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -4043,7 +4043,7 @@
                         <mxGeometry x="1320" y="1868.75" width="184.5" height="230" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="YDh9j3lfRaGWbCi7wZm3-2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;entryX=1.007;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bVuoLAIyjrP942gQWFMU-170" target="bVuoLAIyjrP942gQWFMU-199" edge="1">
+                <mxCell id="YDh9j3lfRaGWbCi7wZm3-2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFCC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="bVuoLAIyjrP942gQWFMU-170" target="bVuoLAIyjrP942gQWFMU-199" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="80" y="2320" as="targetPoint"/>
                         <Array as="points">
@@ -4188,7 +4188,7 @@
                         <mxGeometry x="320" y="2390" width="170" height="250" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="9bNv_6K7PpNHB8-STBCk-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.393;exitDx=0;exitDy=0;strokeColor=#001DBC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;entryX=0.346;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bVuoLAIyjrP942gQWFMU-199" target="9bNv_6K7PpNHB8-STBCk-1" edge="1">
+                <mxCell id="9bNv_6K7PpNHB8-STBCk-3" style="edgeStyle=none;html=1;exitX=0.999;exitY=0.372;exitDx=0;exitDy=0;strokeColor=#001DBC;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;entryX=0.346;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bVuoLAIyjrP942gQWFMU-199" target="9bNv_6K7PpNHB8-STBCk-1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="280" y="2379"/>
@@ -4198,9 +4198,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="DIAGNOSTICO&lt;br&gt;id&lt;br&gt;serial&lt;br&gt;observacion&lt;br&gt;id_gravedad&lt;br&gt;id_info_producto&lt;br&gt;id_registro&lt;br&gt;id_vehiculo" lucidchartObjectId="RbBft1wn2WcB" id="bVuoLAIyjrP942gQWFMU-199">
+                <UserObject label="DIAGNOSTICO&lt;br&gt;id&lt;br&gt;serial&lt;br&gt;fecha&lt;br&gt;observacion&lt;br&gt;id_gravedad&lt;br&gt;id_info_producto&lt;br&gt;id_registro&lt;br&gt;id_vehiculo" lucidchartObjectId="RbBft1wn2WcB" id="bVuoLAIyjrP942gQWFMU-199">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=center;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2;strokeColor=#FFF194;" parent="1" vertex="1">
-                        <mxGeometry x="-21.25" y="2310" width="202.5" height="170" as="geometry"/>
+                        <mxGeometry x="-21.25" y="2310" width="202.5" height="190" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="bVuoLAIyjrP942gQWFMU-201" value="" style="edgeStyle=none;hachureGap=4;html=1;strokeColor=#FFFFCC;strokeWidth=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;entryX=1;entryY=0.663;entryDx=0;entryDy=0;exitX=-0.016;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;rounded=1;entryPerimeter=0;" parent="1" source="bVuoLAIyjrP942gQWFMU-202" target="bVuoLAIyjrP942gQWFMU-160" edge="1">
@@ -4343,9 +4343,9 @@
                             <mxPoint x="520" y="2560"/>
                             <mxPoint x="520" y="2650"/>
                             <mxPoint x="200" y="2650"/>
-                            <mxPoint x="200" y="2500"/>
+                            <mxPoint x="200" y="2530"/>
+                            <mxPoint x="80" y="2530"/>
                             <mxPoint x="77" y="2500"/>
-                            <mxPoint x="77" y="2480"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
